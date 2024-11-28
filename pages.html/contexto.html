@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Practica 2-LGG</title>
+            <link rel="stylesheet" href="../styles/style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        </head>
+        <body>
+          <!-- Encabezado -->
+          <header>
+            <img src="../image/fondo_colores_gif.gif" alt="10px"  class="100px">
+            <h4>PRÁCTICA DOCENTE II - PORTFOLIO DIGITAL</h4>       
+        
+             <!-- Navegación -->
+            <nav>
+                <div class="">
+                <h4>ESCUELA EPET N° 1 DE CAUCETE- PORTFOLIO DIGITAL</h4>
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>            
+              <li><a href="../index.html">Historia</a></li>
+              <li><a href="../index.html">Trayectoria</a></li>
+              <li><a href="./geolocalizacio.html">Geolocalizacion</a></li>
+              <li><a href="./contexto.html">Contexto</a></li>
+              <li><a href="./muro_sonoro.html">Muro Sonoro</a></li>
+              <li><a href="./relevamiento.html">Relevamiento</a></li>
+              <li><a href="./reflexiones.html">Reflexiones</a></li>
+              <li><a href="./recursos.html">Recursos</a></li>
+            </ul>
+            
+          </nav>
+        </header>
+          <!-- Contenido principal -->
+          <main>
+            <section id="home" class="page">
+                <div class="tarjeta">
+                    <h1>ESCUELA PROVINCIAL DE EDUCACIÓN TÉCNICA - EPET N°1 DE CAUCETE</h1>
+                    <img src="../image/frente_EPET.jpg" alt="Frente de la EPET" class="rounded-image">
+                </div>
+    
+                <div class="tarjeta">
+                    <h2>CONTEXTO INSTITUCIONAL</h2>
+                    <p>La escuela EPET N°1 de Caucete, se encuentra ubicada en el centro del Barrio Justo P. Castro 1...</p>
+                  
+                </div>
+    
+                <div class="tarjeta">
+                    <h2>POBLACIÓN ESTUDIANTIL</h2>
+                    <p>En la actualidad la escuela tiene una matrícula de 900 alumnos Y 180 docentes</p>
+                    <img src="../image/epet_alumnos_aula.png" alt="Alumnos en aula" class="rounded-image">
+                </div>
+    
+                <div class="tarjeta">
+                    <h2>VISIÓN INSTITUCIONAL</h2>
+                    <p>Busca un futuro posible marcando el compromiso en la Educación Técnica...</p>
+                    <h2>MISIÓN INSTITUCIONAL</h2>
+                    <p>Generar propuestas formativas que consideren y trabajen las características socioculturales...</p>
+                </div>
+    
+                <div class="tarjeta">
+                    <h2>OBJETIVO</h2>
+                    <p>Familiarizar a los estudiantes con las prácticas y el ejercicio técnico-profesional vigente...</p>
+                </div>
+    
+                <div class="tarjeta">
+                    <h2>USO DE LAS TIC</h2>
+                    <p>La institución cuenta con conectividad, pero en cuanto a la calidad y velocidad es obsoleta...</p>
+                    <h2>PEI</h2>
+                    <h3>Estrategias de mejora de nuestras prácticas docentes</h3>
+                    <ul>
+                        <li>Planificación áulica consensuada en cada departamento...</li>
+                        <li>Diseños áulicos atractivos...</li>
+                        <li>Implementación de actividades que capten la atención y el interés...</li>
+                    </ul>
+                </div>
+                <div class="tarjeta">
+                  <h2> Qr del PEI</h2>
+                  <img src="../image/QR-PEI.jpg" alt="Alumnos en aula" class="rounded-image">
+                  <h2> QR DEL  XXXX</h2>
+                  <img src="../image/QR_PCI.png" alt="Alumnos en aula" class="rounded-image">
+                </div>
+                <button class="boton" onclick="scrollToTop()">Volver Arriba</button>
+            </section>
+        </main>
+        
+          <!-- Pie de página -->
+          <footer>
+            <p>Contacto:garrolaura735@gmail.com | Tel: 123-456-789</p>
+            <p>&copy; 2024 Laura Garro. Todos los derechos reservados.</p>
+          </footer>
+        <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+  </html>
+        

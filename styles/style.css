@@ -1,0 +1,211 @@
+/* Estilo general */
+body {
+    font-family: 'Gastic', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #0044cc, #00ccff);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    width: 80%;
+    height: auto;
+}
+
+header h4 {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Navegación */
+nav {
+    background-color: #3f7fed;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+nav h4 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(231, 230, 235);
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0055ff;
+}
+
+/* Main */
+main {
+    margin-left: 220px;
+    padding: 20px;
+    background-image: url('../image/fondo_cuadros.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.tarjeta {
+    background: white; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+    margin: 20px auto; /* Centra la tarjeta horizontalmente */
+    padding: 15px; /* Espaciado interno */
+    max-width: 60%; /* La tarjeta ocupa el 60% del ancho del contenedor */
+    text-align: center; /* Centra el contenido interno */
+}
+
+.tarjeta img {
+    display: block; /* Evita el margen extra de las imágenes */
+    margin: 0 auto 10px; /* Centra la imagen y da espacio inferior */
+    max-width: 100%; /* La imagen ocupa todo el ancho disponible */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.tarjeta h1,
+.tarjeta h2,
+.tarjeta h3 {
+    margin: 10px 0; /* Espaciado entre títulos */
+    font-family: gstatic, sans-serif; /* Fuente profesional y legible */
+    font-weight: bold; /* Títulos más destacados */
+    color: #333; /* Texto en color neutro */
+    text-align: center; /* Centra los títulos */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ccc;
+    color: #2975d2fe;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo general de las tablas */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #00ccff #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9f5e9;
+}
+/* Estilo general para listas */
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Estilo para los elementos de la lista */
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Estilo para los enlaces */
+ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #4CAF50; /* Color principal */
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo general para listas */
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Estilo para los elementos de la lista */
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Estilo para los enlaces */
+ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #141914; /* Color principal */
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efecto hover */
+ul li a:hover {
+    background-color: #4CAF50; /* Fondo cambia al color principal */
+    color: white; /* Texto cambia a blanco */
+}
+
+/* Efecto activo o visitado */
+ul li a:visited {
+    color: #030c04; /* Color más oscuro para enlaces visitados */
+}
+
+
+
+  
+  

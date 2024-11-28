@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Practica 2-LGG</title>
+            <link rel="stylesheet" href="../styles/style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        </head>
+        <body>
+          <!-- Encabezado -->
+          <header>
+          
+            <img src="../image/fondo_colores_gif.gif" alt="10px"  class="100px">
+            <h4>PRÁCTICA DOCENTE II - PORTFOLIO DIGITAL</h4>       
+        
+             <!-- Navegación -->
+            <nav>
+                <div class="">
+                <h4>ESCUELA EPET N° 1 DE CAUCETE- PORTFOLIO DIGITAL</h4>
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>            
+              <li><a href="../index.html">Historia</a></li>
+              <li><a href="../index.html">Trayectoria</a></li>
+              <li><a href="./geolocalizacio.html">Geolocalizacion</a></li>
+              <li><a href="./contexto.html">Contexto</a></li>
+              <li><a href="./muro_sonoro.html">Muro Sonoro</a></li>
+              <li><a href="./relevamiento.html">Relevamiento</a></li>
+              <li><a href="./reflexiones.html">Reflexiones</a></li>
+              <li><a href="./recursos.html">Recursos</a></li>
+            </ul>
+            
+          </nav>
+        </header>
+          <!-- Contenido principal -->
+          <main>
+            <section id="resources" class="page">
+                <div class="tarjeta">
+                    <h1>RECURSOS</h1>
+                    <h2>MICROCLASE</h2>
+                    <h3>Hoy aprenderemos sobre Seguridad Informática</h3>
+                    <p>En esta microclase aprenderán sobre robótica, un tema de gran importancia en la sociedad actual, que se ha convertido en una tendencia esencial, especialmente para los jóvenes. Es fundamental que los estudiantes comprendan los principios básicos, elementos y funcionamiento de Arduino para completar cada desafío, comenzando desde lo más simple hasta lo más complejo.</p>
+                    <p>En la actualidad, los estudiantes de secundaria utilizan internet y dispositivos digitales para una gran variedad de actividades, desde el aprendizaje y la investigación, hasta la comunicación y el entretenimiento. Sin embargo, esta interconexión trae consigo riesgos, como virus informáticos, malware, phishing y el robo de identidad. Por tanto, es esencial que los estudiantes aprendan a protegerse y proteger sus datos personales.</p>
+                </div>
+                <div class="tarjeta">
+                    <h1>AULAS VIRTUALES</h1>
+                    <img src="../image/QR_CLASSROOM.png" alt="QR Classroom" height="300" width="300">
+                    <h2>CLASSROOM DE LAURA GARRO</h2>
+                    <h3>Código de la Clase</h3>
+                    <h3>kjkz5pa</h3>
+                </div>
+                <div class="tarjeta">
+                    <h3>MATERIAL DE INVESTIGACIÓN</h3>
+                    <p>Proporcionamos material de investigación para profundizar en los temas tratados en clase...</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="../image/MANUAL_INFORMATICA.png" alt="Cuadernillo de Informática" height="300">
+                    <a href=https://heyzine.com/flip-book/aca0d7b700.html>Haz click para ver el manual</a><br>
+                    
+                    <a href="https://classroom.google.com/c/NzE3NDgxOTA4MTYy?cjc=kjkz5pa">Haz click para visitar este sitio</a>
+                </div>
+            </section>
+        </main>
+    </body>
+    </html>
+                    
+                </div>
+                
+               <br>
+                
+                <button onclick="scrollToTop()" class="boton">Volver arriba</button>
+            </section>
+        </main>
+        
+          <!-- Pie de página -->
+          <footer>
+            <p>Contacto:garrolaura735@gmail.com | Tel: 123-456-789</p>
+            <p>&copy; 2024 Laura Garro. Todos los derechos reservados.</p>
+          </footer>
+        <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+  </html>
